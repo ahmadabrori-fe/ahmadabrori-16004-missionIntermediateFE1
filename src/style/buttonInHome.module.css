@@ -1,0 +1,18 @@
+.buttonVideoCourse {
+  width: 280px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(62, 207, 76, 1);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+@media screen and (min-width: 500px) {
+  .buttonVideoCourse {
+    width: 369px;
+  }
+}

@@ -1,0 +1,101 @@
+@import url(../index.css);
+
+.mainRegister {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 922px;
+}
+.containerRegister {
+  width: 320px;
+  height: 866px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px;
+  border: 1px solid rgba(241, 241, 241, 1);
+  border-radius: 4px;
+}
+
+.formReg {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.formReg #phone-number {
+  width: 78px;
+  margin-left: 50px;
+}
+.flagReg {
+  position: absolute;
+  width: 44px;
+  height: 37px;
+  top: 5px;
+  background-color: rgba(244, 245, 250, 1);
+  border-radius: 6px;
+}
+.flag-icon {
+  position: relative;
+  top: 6px;
+  left: 9px;
+}
+
+.code-religion {
+  position: relative;
+}
+.formReg .number {
+  position: absolute;
+  top: 0px;
+  left: 135px;
+  width: 146px;
+}
+
+.form-passwordReg {
+  position: relative;
+}
+
+.button-signin-with-googleReg {
+  position: relative;
+}
+
+@media screen and (min-width: 500px) {
+  .mainRegister {
+    padding: 64px 120px;
+    height: 1150px;
+    gap: 36px;
+  }
+  .containerRegister {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    width: 590px;
+    height: 1000px;
+    padding: 36px;
+    border-radius: 4px;
+  }
+  .formReg {
+    margin-top: 0px;
+  }
+
+  .flagReg {
+    height: 48px;
+  }
+  .flag-icon {
+    top: 13px;
+    left: 10px;
+  }
+  .formReg #phone-number {
+    height: 48px;
+  }
+  .formReg .number {
+    width: 383px;
+  }
+  #jk {
+    width: 518px;
+    height: 48px;
+  }
+
+  .form-passwordReg {
+    position: relative;
+  }
+}

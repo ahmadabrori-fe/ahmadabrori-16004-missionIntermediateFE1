@@ -1,0 +1,140 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 424px;
+  padding: 20px;
+  gap: 16px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(58, 53, 65, 0.12);
+}
+.footer * {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.footerDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  margin-bottom: 20px;
+}
+.desc1 {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  gap: 8px;
+  font-size: 14px;
+}
+.desc1 img {
+  width: 170px;
+  margin-bottom: 8px;
+}
+.desc1 h3 {
+  font-weight: 700;
+}
+.desc1 p {
+  font-weight: 400;
+}
+.desc1,
+.desc2 a {
+  color: rgba(34, 35, 37, 1);
+}
+.desc2 {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  gap: 12px;
+}
+.desc2 .product {
+  display: flex;
+  justify-content: space-between;
+}
+.kategori {
+  display: none;
+}
+.desc2 .product a {
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+}
+.lineBottom {
+  display: flex;
+  justify-content: center;
+}
+.lineBottom img {
+  width: 318px;
+}
+.sosmed {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 15px;
+}
+.sosmedItem {
+  display: flex;
+  gap: 15px;
+}
+.sosmed p {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.68);
+}
+
+@media screen and (min-width: 500px) {
+  .footer {
+    display: flex;
+    width: 100%;
+    height: 427px;
+    padding: 60px;
+  }
+  .footerBox {
+    width: 1200px;
+  }
+  .footerDesc {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+    gap: 460px;
+  }
+  .desc1 {
+    display: flex;
+  }
+  .desc1 img {
+    width: 204px;
+  }
+  .desc2 {
+    flex-direction: row;
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+  }
+  .product img {
+    display: none;
+  }
+  .product .kategori {
+    display: block;
+    width: 150px;
+  }
+  .product .kategori a {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 0.68);
+    margin: 10px 0px;
+  }
+  .kategori .blogHidden {
+    visibility: hidden;
+  }
+  .lineBottom img {
+    width: 1200px;
+    height: 2px;
+  }
+  .sosmed {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+}

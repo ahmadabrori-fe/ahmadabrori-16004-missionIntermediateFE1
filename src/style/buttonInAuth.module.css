@@ -1,0 +1,44 @@
+.button {
+  width: 280px;
+  height: 34px;
+  border-radius: 10px;
+  border: 1px solid rgba(241, 241, 241, 1);
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  cursor: pointer;
+}
+.buttonLogin {
+  background-color: rgba(62, 207, 76, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.buttonRegister {
+  background-color: rgba(226, 252, 217, 0.8);
+  color: rgba(62, 207, 76, 1);
+}
+
+.loginWithGoogle {
+  background-color: white;
+  color: rgba(74, 80, 92, 1);
+}
+.googleIcon {
+  position: absolute;
+  width: 18px;
+  left: 35px;
+  bottom: 7px;
+}
+
+@media screen and (min-width: 500px) {
+  .googleIcon {
+    left: 155px;
+    bottom: 11px;
+    height: 20px;
+    width: 20px;
+  }
+  .button {
+    width: 518px;
+    height: 42px;
+  }
+}

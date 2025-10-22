@@ -1,0 +1,116 @@
+.bannerBtm {
+  text-align: center;
+}
+.bannerBottom img {
+  position: relative;
+  border-radius: 10px;
+}
+.opacityBottom {
+  position: absolute;
+  margin-top: -405px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: aliceblue;
+  box-shadow: 0px 12px 45px -10px rgba(62, 67, 74, 0.15);
+}
+.bannerBottom img,
+.opacityBottom {
+  height: 400px;
+  width: 320px;
+}
+.letter {
+  height: 304px;
+  margin-top: 45px;
+}
+.newsletter {
+  width: 280px;
+  height: 168px;
+  margin-bottom: 40px;
+}
+.news {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(193, 194, 196, 1);
+  margin-bottom: 5px;
+}
+.learn {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 110.00000000000001%;
+  margin-bottom: 10px;
+}
+.regis {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+.news,
+.regis {
+  line-height: 140%;
+}
+.buttonLet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  font-size: 30px;
+}
+.buttonLetter {
+  height: 40px;
+  width: 280px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 8px 10px 12px;
+}
+.btn1 {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(51, 51, 51, 0.68);
+  font-weight: 400;
+}
+.btn2 {
+  background-color: rgba(255, 189, 58, 1);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+}
+
+@media screen and (min-width: 500px) {
+  .bannerBottom img,
+  .opacityBottom {
+    height: 400px;
+    width: 1200px;
+  }
+  .opacityBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 140px 64px 140px;
+  }
+  .newsletter {
+    width: 525px;
+    margin-bottom: 0px;
+  }
+  .news {
+    font-size: 18px;
+  }
+  .learn {
+    font-size: 32px;
+  }
+  .regis {
+    font-size: 16px;
+  }
+  .btn1 {
+    position: relative;
+    width: 525px;
+    height: 50px;
+    padding: 8px 8px 8px 32px;
+    text-align: left;
+  }
+  .btn2 {
+    position: absolute;
+    width: 132px;
+    margin-left: 380px;
+  }
+}

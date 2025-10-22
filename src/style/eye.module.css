@@ -1,0 +1,13 @@
+.eye {
+  width: 16px;
+  position: absolute;
+  right: 10px;
+  bottom: 27px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+  .eye {
+    bottom: 32px;
+  }
+}

@@ -1,0 +1,57 @@
+@import url(../index.css);
+
+.mainLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 580px;
+}
+.containerLogin {
+  width: 320px;
+  height: 514px;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px;
+  border: 1px solid rgba(241, 241, 241, 1);
+  border-radius: 4px;
+}
+
+.subtitle {
+  color: rgba(51, 51, 51, 0.68);
+  letter-spacing: 0.2px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.form-password {
+  position: relative;
+}
+
+.button-signin-with-google {
+  position: relative;
+}
+
+@media screen and (min-width: 500px) {
+  .header {
+    width: 100%;
+    padding: 12px 120px;
+  }
+  .mainLogin {
+    padding: 64px 120px;
+    height: 944px;
+    gap: 36px;
+  }
+  .containerLogin {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    width: 590px;
+    height: 617px;
+    padding: 36px;
+    border-radius: 4px;
+  }
+}

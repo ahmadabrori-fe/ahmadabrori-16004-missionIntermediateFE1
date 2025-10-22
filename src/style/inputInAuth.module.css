@@ -1,0 +1,26 @@
+input {
+  width: 280px;
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid rgba(241, 241, 241, 1);
+  margin-top: 4px;
+  padding: 10px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: rgba(51, 51, 51, 1);
+}
+
+input::placeholder {
+  color: rgba(51, 51, 51, 0.68);
+}
+
+.input {
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 500px) {
+  input {
+    width: 518px;
+    height: 48px;
+  }
+}

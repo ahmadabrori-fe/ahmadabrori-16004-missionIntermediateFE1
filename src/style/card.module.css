@@ -1,0 +1,106 @@
+.cardMaster {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 147px;
+  border: 1px solid rgba(58, 53, 65, 0.12);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+.card {
+  display: flex;
+  gap: 10px;
+  height: 115px;
+  width: 288px;
+}
+.imageCard {
+  width: 82px;
+  height: 82px;
+}
+.imageCard > img {
+  width: 82px;
+  height: 82px;
+  border-radius: 10px;
+}
+.titleCard {
+  display: flex;
+  flex-direction: column;
+  color: rgba(34, 35, 37, 1);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.titleCard .deskrip {
+  display: none;
+}
+.avatar {
+  display: flex;
+  gap: 10px;
+}
+.avatar > img {
+  margin-top: 13px;
+  width: 36px;
+  border-radius: 10px;
+}
+.imageCard > img,
+.avatar > img {
+  border-radius: 10px;
+}
+.name h4 {
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.name p {
+  font-weight: 400;
+  font-size: 12px;
+}
+.name h4,
+.name p {
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.ratingCard {
+  display: flex;
+  justify-content: space-between;
+}
+.rating {
+  margin-top: 10px;
+  width: 143px;
+}
+.cost {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(62, 207, 76, 1);
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 500px) {
+  .cardMaster {
+    width: 384px;
+    height: 426px;
+    padding: 20px;
+    margin: 8px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 230px;
+  }
+  .imageCard img {
+    width: 344px;
+    height: 193px;
+  }
+  .titleCard h3 {
+    margin-top: 115px;
+    margin-bottom: 10px;
+  }
+  .titleCard .deskrip {
+    display: contents;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(51, 51, 51, 0.68);
+  }
+}

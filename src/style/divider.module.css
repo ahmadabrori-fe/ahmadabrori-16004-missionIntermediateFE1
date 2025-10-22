@@ -1,0 +1,19 @@
+.or {
+  position: relative;
+  top: 10px;
+  margin-top: 5px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+.orText {
+  display: inline-block;
+  color: rgba(51, 51, 51, 0.68);
+  background-color: rgba(255, 255, 255, 1);
+  padding: 2px 8px;
+}
+
+@media screen and (min-width: 500px) {
+  .divider {
+    height: 2px;
+  }
+}
