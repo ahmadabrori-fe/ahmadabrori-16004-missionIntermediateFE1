@@ -6,6 +6,7 @@ import linkedin from "../assets/linkedin.png";
 import fb from "../assets/fb.png";
 import ig from "../assets/ig.png";
 import twitter from "../assets/twitter.png";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -22,43 +23,43 @@ export const Footer = () => {
           </div>
           <div className={styleFooter.desc2}>
             <div className={styleFooter.product}>
-              <a href="/">Kategori</a>
+              <Link to="/">Kategori</Link>
               <img src={imgKeyboardArrowRight} alt="" />
               <div className={styleFooter.kategori}>
-                <a href="/">Digital & Teknologi</a>
-                <a href="/">Pemasaran</a>
-                <a href="/">Manajemen Bisnis</a>
-                <a href="/">Pengembangan Diri</a>
-                <a href="/">Desain</a>
+                <Link to="/">Digital & Teknologi</Link>
+                <Link to="/">Pemasaran</Link>
+                <Link to="/">Manajemen Bisnis</Link>
+                <Link to="/">Pengembangan Diri</Link>
+                <Link to="/">Desain</Link>
               </div>
             </div>
             <div className={styleFooter.product}>
-              <a href="/">Perusahaan</a>
+              <Link to="/">Perusahaan</Link>
               <img src={imgKeyboardArrowRight} alt="" />
               <div className={styleFooter.kategori}>
-                <a href="/">Tentang Kami</a>
-                <a href="/">FAQ</a>
-                <a href="/">Kebijakan Privasi</a>
-                <a href="/">ketentuan Layanan</a>
-                <a href="/">Bantuan</a>
+                <Link to="/">Tentang Kami</Link>
+                <Link to="/">FAQ</Link>
+                <Link to="/">Kebijakan Privasi</Link>
+                <Link to="/">ketentuan Layanan</Link>
+                <Link to="/">Bantuan</Link>
               </div>
             </div>
             <div className={styleFooter.product}>
-              <a href="/">Komunitas</a>
+              <Link to="/">Komunitas</Link>
               <img src={imgKeyboardArrowRight} alt="" />
               <div className={styleFooter.kategori}>
-                <a href="/">Tips Sukses</a>
-                <a href="/">Blog</a>
+                <Link to="/">Tips Sukses</Link>
+                <Link to="/">Blog</Link>
                 <span className={styleFooter.blogHidden}>
-                  <a href="/" id="blog-3">
+                  <Link to="/" id="blog-3">
                     Blog
-                  </a>
-                  <a href="/" id="blog-4">
+                  </Link>
+                  <Link to="/" id="blog-4">
                     Blog
-                  </a>
-                  <a href="/" id="blog-5 ">
+                  </Link>
+                  <Link to="/" id="blog-5 ">
                     Blog
-                  </a>
+                  </Link>
                 </span>
               </div>
             </div>

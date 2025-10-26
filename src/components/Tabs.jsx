@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styleTabs from "../style/tabs.module.css";
 
 export const Tabs = () => {
@@ -5,29 +6,29 @@ export const Tabs = () => {
     <div className={styleTabs.tabs}>
       <ul>
         <li>
-          <a href="/" id="list-1">
+          <Link to="/" id="list-1">
             Semua Kelas
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/" id="list-2">
+          <Link to="/" id="list-2">
             Pemasaran
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/" id="list-3">
+          <Link to="/" id="list-3">
             Desain
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/" id="list-4">
+          <Link to="/" id="list-4">
             Pengembangan Diri
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/" id="list-5">
+          <Link to="/" id="list-5">
             Bisnis
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
