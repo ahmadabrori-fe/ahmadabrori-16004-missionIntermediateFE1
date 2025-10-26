@@ -7,7 +7,7 @@ import { Tabs } from "../components/Tabs";
 import { Card } from "../components/Card";
 import { BannerBottom } from "../components/BannerBottom";
 import { Footer } from "../components/Footer";
-import hamburgerIcon from "../assets/hamburgerIcon.png";
+import profileIcon from "../assets/profileIcon.webp";
 import imageCard1 from "../assets/image-card-1.jpg";
 import imageCard2 from "../assets/image-card-2.jpg";
 import imageCard3 from "../assets/image-card-3.jpg";
@@ -34,7 +34,7 @@ export const Home = () => {
 
   return (
     <>
-      <Header hamburger={hamburgerIcon} />
+      <Header profileIcon={profileIcon} order="Mulai Belajar" />
       <main className="main">
         {/* <!-- section banner top --> */}
         <BannerTop />
